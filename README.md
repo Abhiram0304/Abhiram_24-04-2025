@@ -192,6 +192,33 @@ curl http://localhost:5000/api/get_report/{report_id}
 - The system uses SQLite for data storage
 - All timestamps are stored in UTC
 
+## Potential Improvements
+
+1. **Performance**
+   - Add caching for frequently accessed data
+   - Optimize database queries with proper indexing
+   - Use connection pooling for better database performance
+
+2. **Scalability**
+   - Migrate to PostgreSQL for better scalability
+   - Add message queues for handling large data uploads
+   - Implement basic load balancing
+
+3. **User Experience**
+   - Add a simple web interface for data upload and report viewing
+   - Implement email notifications for report completion
+   - Add basic data visualization
+
+4. **Security**
+   - Add basic authentication
+   - Implement rate limiting
+   - Add data validation
+
+5. **Testing**
+   - Add unit tests for core functionality
+   - Implement basic CI/CD pipeline
+   - Add automated testing for data validation
+
 ## Example Report Generated
 
 [Download Latest Report](https://github.com/Abhiram0304/Abhiram_24-04-2025/blob/main/uploads/report_56fe3631-19ba-4d50-ba0e-72275049fd9a.csv)
