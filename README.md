@@ -192,18 +192,6 @@ curl http://localhost:5000/api/get_report/{report_id}
 - The system uses SQLite for data storage
 - All timestamps are stored in UTC
 
-## Latest Report
+## Example Report Generated
 
 [Download Latest Report](https://github.com/Abhiram0304/Abhiram_24-04-2025/blob/main/uploads/report_56fe3631-19ba-4d50-ba0e-72275049fd9a.csv)
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details. 
